@@ -5,6 +5,11 @@
 public class Account
 {
    private String name; // instance variable
+
+   public Account(String name) // constructor
+   {
+      this.name = name; // initialize name
+   } // end Account constructor
  
    // method to set the name in the object              
    public void setName(String name)      

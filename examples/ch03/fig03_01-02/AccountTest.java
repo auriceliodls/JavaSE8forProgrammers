@@ -10,7 +10,7 @@ public class AccountTest
       Scanner input = new Scanner(System.in);
 
       // create an Account object and assign it to myAccount
-      Account myAccount = new Account(); 
+      Account myAccount = new Account(null, 0); 
 
       // display initial value of name (null)
       System.out.printf("Initial name is: %s%n%n", myAccount.getName());
@@ -29,7 +29,7 @@ public class AccountTest
 
 
 /**************************************************************************
- * (C) Copyright 1992-2014 by Deitel & Associates, Inc. and               *
+ * (C) Copyright7i 1992-2014 by Deitel & Associates, Inc. and               *
  * Pearson Education, Inc. All Rights Reserved.                           *
  *                                                                        *
  * DISCLAIMER: The authors and publisher of this book have used their     *
